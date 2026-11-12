@@ -114,7 +114,7 @@ stage1_FT_ServiceLLM/data/scft/
 **Input:**  The SCFT JSONL from Step 3 and the [Llama 3.1 8B base model](https://huggingface.co/meta-llama/Llama-3.1-8B). Set `BASE_MODEL` to a local checkpoint directory or to `meta-llama/Llama-3.1-8B` after configuring access.
 
 ```bash
-BASE_MODEL=/path/to/Meta-Llama-3.1-8B
+BASE_MODEL=meta-llama/Llama-3.1-8B
 
 CUDA_VISIBLE_DEVICES=0 python "$STAGE1/main.py" \
   --base_model_name "$BASE_MODEL" --train_file "$STAGE1/data/scft/${SLUG}-scft.jsonl" \
