@@ -41,7 +41,7 @@ STAGE2=stage2_Downstream_Recommendation
 | Amazon Industrial and Scientific | `Scientific` | [Amazon download page](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) |
 | Amazon Arts, Crafts and Sewing | `Arts` | [Amazon download page](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) |
 | Amazon Office Products | `Office` | [Amazon download page](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) |
-| Yelp Open Dataset | `yelp` | [Yelp download page](https://www.yelp.com/dataset/documentation/main) |
+| Yelp Open Dataset | `Yelp` | [Yelp download page](https://www.yelp.com/dataset/documentation/main) |
 
 ```bash
 mkdir -p "$STAGE1/data/raw"
